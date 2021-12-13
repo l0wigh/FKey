@@ -1,6 +1,6 @@
 # FKey
 
-#Goal
+# Goal
 
 FKey is a fork of German keyboard layout for Temple OS.
 The goal is to bring the azerty keyboard to Temple OS (at least for the layout, maybe not the accentuated char).
