@@ -8,7 +8,7 @@ The goal is to bring the azerty keyboard to Temple OS (at least for the layout, 
 The layout isn't totally like the AZERTY one, but it's the closest I got, just open the HomeKeyPlugIns file to see what changes are made.
 # Installation
 
-Here is a set of commands that should allow you to install GKey:
+Here is a set of commands that should allow you to install FKey:
 
     Cd("T:");
     #include "Setup.HC.Z";
