@@ -2,18 +2,21 @@
 
 # Goal
 
-FKey is a fork of German keyboard layout for Temple OS.
-The goal is to bring the azerty keyboard to Temple OS (at least for the layout, maybe not the accentuated char).
+FKey is a fork of German keyboard layout for TempleOS.
+The goal is to bring the Azerty layout (ISO) to TempleOS and ZealOS.
 
-The layout isn't totally like the AZERTY one, but it's the closest I got, just open the HomeKeyPlugIns file to see what changes are made.
+# Important Informations
+
+Azerty layout is fully ported for ZealOS (HomeKeyPlugIns.ZC), but the TempleOS version is the older one I made (not a full port).
+
+I should port it fully on Vanilla TempleOS soon and rebuild an ISO.
+
+For now, use ZealOS for full Azerty support.
+
 # Installation
 
-Here is a set of commands that should allow you to install FKey:
+For TempleOS you can use the ISO and include the installer, but it's not the full layout.
 
-    Cd("T:");
-    #include "Setup.HC.Z";
-    
-This script will copy the HomeKeyPlugIns.HC to your Home directory for you.
-You are free to copy the file manually as well.
+For ZealOS you'll need to access your virtual hard drive.
 
-To uninstall, just delete HomeKeyPlugIns.HC from your Home directory
+For VDI you can use Daemon Tool. For qcow, there is some ways (look at TSoding gitlab, he uses some scripts to mount the disk).
