@@ -5,12 +5,12 @@ asm {
 FN_KEY_SCAN_DECODE_TABLE::
 	DU8	0,CH_ESC,"&‚\"'(-Š_‡…)=",CH_BACKSPACE,'\t';
 	DU8	"azertyuiop^$$",'\n',"<","qs";
-	DU8	"dfghjklmu*",0,"*wxcv";
+	DU8	"dfghjklm—*",0,"*wxcv";
 	DU8	"bn,;:!",0,'*',0,CH_SPACE,0,0,0,0,0,0;
 	DU8	0,0,0,0,0,0,0,0,0,0,'-',0,0,0,'+',0;
 FS_KEY_SCAN_DECODE_TABLE::
 	DU8	0,CH_SHIFT_ESC,"1234567890ø+",CH_BACKSPACE,'\t';
-	DU8	"AZERTYUIOP??",'\n',0,"QS";
+	DU8	"AZERTYUIOP??",'\n',0,"QS";
 	DU8	"DFGHJKLM%\\",0,"*WXCV";
 	DU8	"BN?./?",0,'*',0,CH_SPACE,0,0,0,0,0,0;
 	DU8	0,0,0,0,0,0,0,0,0,0,'-',0,0,0,'+',0;
@@ -194,7 +194,7 @@ Bool MyPutKey(I64 ch,I64 sc)
 	return TRUE;
 
 	//Ins your own ALT-key plug-ins
-	case 'é':
+	case '‚':
 		if (!(sc&SCF_KEY_DESC))
 			'~';
 		return TRUE;
@@ -214,7 +214,7 @@ Bool MyPutKey(I64 ch,I64 sc)
 		if (!(sc&SCF_KEY_DESC))
 			'|';
 		return TRUE;
-	case 'è':
+	case 'Š':
 		if (!(sc&SCF_KEY_DESC))
 			'`';
 		return TRUE;
@@ -222,11 +222,11 @@ Bool MyPutKey(I64 ch,I64 sc)
 		if (!(sc&SCF_KEY_DESC))
 			'\\';
 		return TRUE;
-	case 'ç':
+	case '‡':
 		if (!(sc&SCF_KEY_DESC))
 			'^';
 		return TRUE;
-	case 'à':
+	case '…':
 		if (!(sc&SCF_KEY_DESC))
 			'@';
 		return TRUE;
