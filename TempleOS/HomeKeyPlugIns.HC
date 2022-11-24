@@ -1,5 +1,3 @@
-//GKey: German Keyboard Layout for TempleOS
-
 //Layout Definitions
 asm {
 FN_KEY_SCAN_DECODE_TABLE::

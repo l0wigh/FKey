@@ -3,7 +3,7 @@ DocClear;
 
 if (YorN)
 {
-	Copy("HomeKeyPlugIns.HC", "~");
+	Copy("HomeKeyPlugIns.HC", "~/HomeKeyPlugIns.HC.Z");
 	"\n\nReboot Now ";
 	if (YorN)
 		Reboot;
